@@ -6,13 +6,23 @@ import { AppComponent } from './app.component';
 import { AcceuilComponent } from './acceuil/acceuil.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { LoginComponent } from './login/login.component';
+import { AcctualiteComponent } from './acctualite/acctualite.component';
+import { ProfilComponent } from './profil/profil.component';
+import { ViewprofilComponent } from './viewprofil/viewprofil.component';
+import { InternshipsComponent } from './internships/internships.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AcceuilComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    AcctualiteComponent,
+    ProfilComponent,
+    ViewprofilComponent,
+    InternshipsComponent
   ],
   imports: [
     BrowserModule,
